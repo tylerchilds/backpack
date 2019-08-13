@@ -11,4 +11,7 @@ safe_clone_pull https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 printf "\nCopying .tmux.conf\n"
 cp ./configs/.tmux.conf ~/.tmux.conf
 
+printf "\nSource .tmux.conf\n"
+tmux source-file ~/.tmux.conf
+
 printf "\nFINISH: setup.tmux.sh\n"
