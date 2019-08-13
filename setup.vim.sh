@@ -1,17 +1,19 @@
 #!/bin/bash
 
-printf "\n\nsetup.vim.sh: start"
+. ./helpers/safe_clone_pull.sh
 
-printf "\n\nCreate ~/.vim"
+printf "\nSTART: setup.vim.sh\n"
+
+printf "Create ~/.vim\n"
 mkdir -p ~/.vim
 
-printf "\n\nCreate ~/.vim/bundle"
+printf "\nCreate ~/.vim/bundle\n"
 mkdir -p ~/.vim/bundle
 
-printf "\n\nCloning vim plugins"
-git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+printf "\nCloning vim plugins\n"
+safe_clone_pull https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 
-printf "\n\nCopying .vimrc"
-cp ~/backpack/configs/.vimrc ~/.vimrc
+printf "\nCopying .vimrc\n"
+cp ./configs/.vimrc ~/.vimrc
 
-printf "\n\nsetup.vim.sh: finish\n\n"
+printf "\nFINISH: setup.vim.sh\n"

@@ -1,11 +1,14 @@
 #!/bin/bash
 
-printf "\n\nsetup.tmux.sh: start"
+. ./helpers/safe_clone_pull.sh
 
-printf "\n\nCloning tmux-plugins"
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+printf "\nSTART: setup.tmux.sh\n"
 
-printf "\n\nCopying .tmux.conf"
-cp ~/backpack/configs/.tmux.conf ~/.tmux.conf
+printf "\nCloning tmux-plugins\n"
 
-printf "\n\nsetup.tmux.sh: finish\n\n"
+safe_clone_pull https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+printf "\nCopying .tmux.conf\n"
+cp ./configs/.tmux.conf ~/.tmux.conf
+
+printf "\nFINISH: setup.tmux.sh\n"
