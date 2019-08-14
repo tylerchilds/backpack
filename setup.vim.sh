@@ -16,4 +16,8 @@ safe_clone_pull https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vi
 printf "\nCopying .vimrc\n"
 cp ./configs/.vimrc ~/.vimrc
 
+printf "\nRun vim-plug installation\n"
+mkdir -p ~/.vim/plugged
+vim +PluginInstall +qall
+
 printf "\nFINISH: setup.vim.sh\n"
