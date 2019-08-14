@@ -15,5 +15,5 @@ brew install tmux vim
 ## Setup
 
 ```
-./setup.all.sh
+./unpack.sh
 ```
