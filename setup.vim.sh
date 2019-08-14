@@ -18,6 +18,6 @@ cp ./configs/.vimrc ~/.vimrc
 
 printf "\nRun vim-plug installation\n"
 mkdir -p ~/.vim/plugged
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 
 printf "\nFINISH: setup.vim.sh\n"
