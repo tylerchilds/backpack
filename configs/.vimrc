@@ -29,3 +29,6 @@ syntax on
 " Set theme
 colorscheme gruvbox
 set background=dark " Setting dark mode
+
+" Unix line endings
+set fileformat=unix
