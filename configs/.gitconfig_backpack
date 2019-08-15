@@ -1,0 +1,11 @@
+[user]
+        name = Tyler Childs
+        email = tylerwchilds@gmail.com
+[branch]
+        autosetuprebase = always
+		autosetupmerge = always
+[color]
+        ui = true
+[core]
+        excludesfile = ~/.gitignore_backpack
+        editor = vim
