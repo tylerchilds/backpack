@@ -9,3 +9,4 @@
 [core]
         excludesfile = ~/.gitignore_backpack
         editor = vim
+		autocrlf = true
