@@ -11,8 +11,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox' " Theme
 Plug 'scrooloose/nerdtree' " Sidebar
 
-Plug 'junegunn/fzf', { 'do': './install --bin' }
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': './install --bin' } " fuzzy finder
+Plug 'junegunn/fzf.vim' " fuzzy finder vim extensions
+
+Plug 'w0rp/ale' " asynchronous lint engine
 
 call plug#end()
 
