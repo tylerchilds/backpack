@@ -35,6 +35,14 @@ set splitright
 " Syntax On
 syntax on
 
+" Show “invisible” characters
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set lcs=tab:\ \ ,trail:·,nbsp:_
+set list
+
+" Highlight searches
+set hlsearch
+
 " Set theme
 colorscheme gruvbox
 set background=dark " Setting dark mode
