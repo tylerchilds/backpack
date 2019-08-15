@@ -21,6 +21,15 @@ call plug#end()
 " Set Tab Size to 4
 set tabstop=4
 
+" keep lines below or above cursor while scrolling
+set scrolloff=8
+
+" highlight the line where your cursor is
+set cursorline
+
+" show a line where you should wrap text
+set colorcolumn=81
+
 " Turn on line numbers
 set number
 
