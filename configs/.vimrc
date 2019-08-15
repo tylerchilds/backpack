@@ -8,13 +8,17 @@ endif
 " Plugins
 call plug#begin('~/.vim/plugged')
 
+" Aesthetics
 Plug 'morhetz/gruvbox' " Theme
-Plug 'scrooloose/nerdtree' " Sidebar
 
+" Search Helpers
+Plug 'scrooloose/nerdtree' " Sidebar
 Plug 'junegunn/fzf', { 'do': './install --bin' } " fuzzy finder
 Plug 'junegunn/fzf.vim' " fuzzy finder vim extensions
 
+" Coding Helpers
 Plug 'w0rp/ale' " asynchronous lint engine
+Plug 'tpope/vim-fugitive' " git wrapper
 
 call plug#end()
 
