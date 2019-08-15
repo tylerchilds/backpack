@@ -11,6 +11,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox' " Theme
 Plug 'scrooloose/nerdtree' " Sidebar
 
+Plug 'junegunn/fzf', { 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 " Set Tab Size to 4
@@ -49,6 +52,6 @@ set wildignore+=.git/*,node_modules/*,generated/*
 nnoremap gf :vertical wincmd f<CR>
 
 " Set the working directory to wherever the open file lives
-set autochdir
+" set autochdir
 
 " Finish tips

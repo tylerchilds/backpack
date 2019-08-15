@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./setup.tmux.sh
-./setup.vim.sh
+./setups/tmux.sh
+./setups/vim.sh
