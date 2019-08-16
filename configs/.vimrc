@@ -22,8 +22,8 @@ Plug 'tpope/vim-fugitive' " git wrapper
 
 call plug#end()
 
-" Set Tab Size to 4
-set tabstop=4
+" Set Tab Size for spaces
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " keep lines below or above cursor while scrolling
 set scrolloff=8
