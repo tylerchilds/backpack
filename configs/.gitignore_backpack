@@ -1,3 +1,5 @@
 *~ # ignores text editor backup files
 .DS_Store
 node_modules/
+*.swp
+*.swo
