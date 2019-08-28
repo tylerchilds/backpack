@@ -62,6 +62,7 @@ set background=dark " Setting dark mode
 
 " Unix line endings
 set fileformat=unix
+set ffs=unix
 
 " Tips from https://gist.github.com/csswizardry/9a33342dace4786a9fee35c73fa5deeb
 " Currently unused
