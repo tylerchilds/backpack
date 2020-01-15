@@ -64,5 +64,8 @@ set background=dark " Setting dark mode
 set fileformat=unix
 set ffs=unix
 
+" enable copy for clipboard for osx
+set clipboard=unnamed
+
 " Tips from https://gist.github.com/csswizardry/9a33342dace4786a9fee35c73fa5deeb
 " Currently unused
