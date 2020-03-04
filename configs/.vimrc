@@ -9,7 +9,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Aesthetics
-Plug 'morhetz/gruvbox' " Theme
+Plug 'morhetz/gruvbox' " Retro Groove Color Theme
 
 " Search Helpers
 Plug 'scrooloose/nerdtree' " Sidebar
@@ -19,6 +19,10 @@ Plug 'junegunn/fzf.vim' " fuzzy finder vim extensions
 " Coding Helpers
 Plug 'w0rp/ale' " asynchronous lint engine
 Plug 'tpope/vim-fugitive' " git wrapper
+
+" TypeScript
+Plug 'leafgarland/typescript-vim' " syntax highlighting
+Plug 'Quramy/tsuquyomi' " TypeScript IDE
 
 call plug#end()
 
