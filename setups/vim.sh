@@ -10,8 +10,8 @@ mkdir -p ~/.vim
 printf "\nCreate ~/.vim/bundle\n"
 mkdir -p ~/.vim/bundle
 
-printf "\nCopying .vimrc\n"
-cp ./configs/.vimrc ~/.vimrc
+printf "\nSymLink .vimrc\n"
+ln -sfv $(pwd)/configs/.vimrc ~
 
 printf "\nRun vim-plug installation\n"
 mkdir -p ~/.vim/plugged

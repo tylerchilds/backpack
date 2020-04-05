@@ -8,8 +8,8 @@ printf "\nCloning tmux-plugins\n"
 
 safe_clone_pull https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-printf "\nCopying .tmux.conf\n"
-cp ./configs/.tmux.conf ~/.tmux.conf
+printf "\nSymLink .tmux.conf\n"
+ln -sfv $(pwd)/configs/.tmux.conf ~
 
 printf "\nSource .tmux.conf\n"
 tmux source-file ~/.tmux.conf

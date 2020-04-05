@@ -73,3 +73,18 @@ set clipboard=unnamed
 
 " Tips from https://gist.github.com/csswizardry/9a33342dace4786a9fee35c73fa5deeb
 " Currently unused
+
+
+" Plugin Helpers
+
+" NerdTree
+
+" Show hidden files by default
+let NERDTreeShowHidden=1
+
+
+" Local Overrides
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
