@@ -29,6 +29,10 @@ call plug#end()
 " Set Tab Size for spaces
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
+" Set specific indentations for different file types
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype sh setlocal ts=2 sw=2 expandtab
+
 " keep lines below or above cursor while scrolling
 set scrolloff=8
 
