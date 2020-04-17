@@ -1,0 +1,2 @@
+# These are included via submodule and symlink
+configs/kitty/colors

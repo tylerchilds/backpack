@@ -1,0 +1,3 @@
+[submodule "submodules/gruvbox-material-kitty"]
+	path = submodules/gruvbox-material-kitty
+	url = https://github.com/rsaihe/gruvbox-material-kitty
