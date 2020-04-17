@@ -99,10 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# set environment variables
-KITTY_CONFIG_DIRECTORY=~
-export EDEN_PATH
-
 # get any aliases we want set to make our lives easier
 source ~/.backpack_aliases
 
