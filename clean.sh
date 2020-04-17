@@ -7,7 +7,7 @@ rm -rf ~/.vim/plugged # Delete vim-plug plugins
 rm -rf ~/.tmux/plugins # Delete tpm plugins
 
 rm -rf ~/.backpack_aliases
-rm -rf ~/.config/kitty/
+rm -rf ~/.config/kitty
 rm -rf ~/.gitconfig
 rm -rf ~/.gitignore
 rm -rf ~/.vimrc
