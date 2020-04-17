@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
 
 " Aesthetics
 Plug 'morhetz/gruvbox' " Retro Groove Color Theme
+Plug 'altercation/vim-colors-solarized' " Solarized Color Theme
 
 " Search Helpers
 Plug 'scrooloose/nerdtree' " Sidebar
@@ -64,9 +65,15 @@ set list
 " Highlight searches
 set hlsearch
 
-" Set theme
-colorscheme gruvbox
-set background=dark " Setting dark mode
+" Set theme gruvbox
+" colorscheme gruvbox
+
+" Set theme: solarized
+let g:solarized_termcolors=256
+colorscheme solarized
+
+set background=light " Setting light mode
+" set background=dark " Setting dark mode
 
 " Unix line endings
 set fileformat=unix
@@ -78,6 +85,9 @@ set clipboard=unnamed
 " Tips from https://gist.github.com/csswizardry/9a33342dace4786a9fee35c73fa5deeb
 " Currently unused
 
+
+" Fix background colors with kitty
+let &t_ut=''
 
 " Plugin Helpers
 
