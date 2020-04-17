@@ -66,14 +66,14 @@ set list
 set hlsearch
 
 " Set theme gruvbox
-" colorscheme gruvbox
+colorscheme gruvbox
 
 " Set theme: solarized
-let g:solarized_termcolors=256
-colorscheme solarized
+"let g:solarized_termcolors=256
+" colorscheme solarized
 
-set background=light " Setting light mode
-" set background=dark " Setting dark mode
+" set background=light " Setting light mode
+set background=dark " Setting dark mode
 
 " Unix line endings
 set fileformat=unix
