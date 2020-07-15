@@ -21,6 +21,9 @@ Plug 'junegunn/fzf.vim' " fuzzy finder vim extensions
 Plug 'w0rp/ale' " asynchronous lint engine
 Plug 'tpope/vim-fugitive' " git wrapper
 
+" Pheonix
+Plug 'elixir-editors/vim-elixir'
+
 " TypeScript
 Plug 'leafgarland/typescript-vim' " syntax highlighting
 Plug 'Quramy/tsuquyomi' " TypeScript IDE
