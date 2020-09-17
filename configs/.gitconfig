@@ -1,6 +1,6 @@
 [user]
 	name = Tyler Childs
-	email = tylerwchilds@gmail.com
+	email = email@tychi.me
 [branch]
 	autosetuprebase = always
 	autosetupmerge = always
@@ -12,3 +12,9 @@
 	autocrlf = false
 [push]
     default = simple
+
+[sendemail]
+    smtpserver = smtp.fastmail.com
+    smtpuser = email@tychi.me
+    smtpencryption = tls
+    smtpserverport = 465
