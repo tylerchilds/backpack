@@ -27,6 +27,7 @@ Plug 'elixir-editors/vim-elixir'
 " TypeScript
 Plug 'leafgarland/typescript-vim' " syntax highlighting
 Plug 'Quramy/tsuquyomi' " TypeScript IDE
+Plug 'peitalin/vim-jsx-typescript' " tsx highlighting
 
 call plug#end()
 
